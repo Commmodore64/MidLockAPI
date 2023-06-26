@@ -43,10 +43,10 @@ npm start
 
 Puedes obtener datos específicos de la base de datos utilizando los puntos finales HTTP. A continuación se muestra un ejemplo:
 ```
-GET /api/data?id={ID}
+GET /api/data/{ID}/medicamentos
 ```
 
-Reemplaza `{ID}` con el identificador específico de los datos que deseas obtener.
+Reemplaza `{ID}` con el identificador específico del usuario de los datos que deseas obtener.
 
 ### Obtener toda la base de datos
 
